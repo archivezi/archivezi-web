@@ -1,190 +1,31 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>آرشیوزی</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Vazir', 'Tahoma', Arial, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        
-        .container {
-            max-width: 800px;
-            padding: 40px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            animation: fadeIn 1.5s ease-in;
-        }
-        
-        h1 {
-            font-size: 3.5em;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            animation: slideDown 1s ease;
-        }
-        
-        p {
-            font-size: 1.5em;
-            margin-bottom: 30px;
-            line-height: 1.6;
-            opacity: 0.9;
-            animation: slideUp 1s ease 0.3s both;
-        }
-        
-        .subtitle {
-            font-size: 1.2em;
-            opacity: 0.8;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 15px 40px;
-            background: white;
-            color: #764ba2;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 1.2em;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-            animation: bounceIn 1s ease 0.6s both;
-        }
-        
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-            background: #f0f0f0;
-        }
-        
-        .social-links {
-            margin-top: 40px;
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-        
-        .social-link {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 30px;
-            transition: all 0.3s ease;
-            font-size: 0.9em;
-        }
-        
-        .social-link:hover {
-            background: rgba(255, 255, 255, 0.2);
-            border-color: white;
-            transform: scale(1.05);
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes bounceIn {
-            0% {
-                opacity: 0;
-                transform: scale(0.3);
-            }
-            50% {
-                opacity: 1;
-                transform: scale(1.05);
-            }
-            70% {
-                transform: scale(0.9);
-            }
-            100% {
-                transform: scale(1);
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 30px 20px;
-            }
-            
-            h1 {
-                font-size: 2.5em;
-            }
-            
-            p {
-                font-size: 1.2em;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>آرشیوزی | Archivezi</title>
 </head>
+
 <body>
-    <div class="container">
-        <h1>✨ به آرشیوزی خوش آمدید ✨</h1>
-        <p class="subtitle">arshivezi.ir</p>
-        
-        <p>
-            به اولین صفحه رسمی آرشیوزی خوش اومدید.<br>
-            به زودی اینجا کلی چیزای جذاب قرار می‌گیره!
-        </p>
-        
-        <a href="#" class="btn">بزودی...</a>
-        
-        <div class="social-links">
-            <a href="#" class="social-link">اینستاگرام</a>
-            <a href="#" class="social-link">تلگرام</a>
-            <a href="#" class="social-link">توییتر</a>
-            <a href="#" class="social-link">لینکدین</a>
-        </div>
-        
-        <div style="margin-top: 30px; font-size: 0.8em; opacity: 0.6;">
-            © ۲۰۲۴ آرشیوزی - تمامی حقوق محفوظ است
-        </div>
-    </div>
-    
-    <!-- فونت وزیر از سرور ایران -->
-    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+
+<h1>آرشیوزی</h1>
+<h2>سیستم پروژه‌محور داده، اجرا و درآمد</h2>
+
+<p>۱. آرشیوزی یک بستر پروژه‌محور برای پیدا کردن داده‌های قابل درآمد است.</p>
+<p>۲. هر فعالیت در سیستم به صورت یک پروژه تعریف می‌شود.</p>
+<p>۳. هر پروژه با ساختار سه‌گانه سرمایه، اجرا و رشد کار می‌کند.</p>
+<p>۴. ربات‌ها، کاربران و هوش مصنوعی به صورت مشترک پروژه‌ها را جلو می‌برند.</p>
+<p>۵. داده‌های جمع‌آوری‌شده تبدیل به دیتاست دائمی سیستم می‌شوند.</p>
+<p>۶. دیتاست هر پروژه در پروژه‌های بعدی نیز استفاده می‌شود.</p>
+<p>۷. مشارکت در پروژه از طریق دریافت توکن انجام می‌شود.</p>
+<p>۸. پس از پایان چرخه مالی، توکن‌ها به سهام پروژه تبدیل می‌شوند.</p>
+<p>۹. هدف نهایی ساخت شبکه‌ای از پروژه‌های داده‌محور با درآمد پایدار است.</p>
+
+<hr>
+
+<p>arshivezi.ir</p>
+<p>Archivezi.ir</p>
+<p>Telegram: arshivezi_ir</p>
+
 </body>
 </html>
