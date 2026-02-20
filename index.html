@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مینی‌اپ ساده</title>
+    <style>
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            text-align: center;
+            padding: 50px 20px;
+            background: #f0f2f5;
+            direction: rtl;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        button {
+            background: #0088cc;
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+        button:hover {
+            background: #0077b3;
+        }
+        #result {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            min-height: 50px;
+            font-size: 16px;
+            color: #333;
+            border: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 صفحه اول مینی‌اپ</h1>
+        
+        <!-- دکمه تست -->
+        <button onclick="runJavaScript()">
+            کلیک کن
+        </button>
+        
+        <!-- محل نمایش نتیجه -->
+        <div id="result">
+            روی دکمه کلیک کن تا جاوااسکریپت اجرا بشه
+        </div>
+    </div>
+
+    <!-- فایل جاوااسکریپت خارجی -->
+    <script src="test.js"></script>
+</body>
+</html>
